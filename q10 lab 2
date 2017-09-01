@@ -1,0 +1,28 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+
+int main()
+{
+	float m1, m2, m3, m4, m5, x, y, z;
+	
+	cout << "Enter marks of subject1\n";
+	cin >> m1;
+	cout << "Enter marks of subject2\n";
+	cin >> m2;
+	cout << "Enter marks of subject3\n";
+	cin >> m3;
+	cout << "Enter marks of subject4\n";
+	cin >> m4;
+	cout << "Enter marks of subject5\n";
+	cin >> m5;
+	x = m1 + m2 + m3 + m4 + m5;
+	y = x/5;
+	cout << "Total marks =" << x << "\n";
+	cout << "Average marks =" << y << "\n";
+	z  = (x/500)*100;
+	cout << "percentage of marks got is " << z << "%";
+	
+	return 0;
+}
