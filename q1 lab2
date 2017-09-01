@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+float cm, m, km;
+
+    /* Input length in centimeter from user */
+    cout << "Enter length in centimeter: ";
+    cin >> cm;
+    m = cm / 100;
+    km = cm / 100000;
+    cout << "the equivalent length in metres is "<< m <<"\n";
+    cout << "the eqivalent in kilometre is " << km;
+	
+	return 0;
+}
