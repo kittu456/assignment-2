@@ -1,0 +1,16 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+
+int main()
+{
+	float x, y;
+	
+	cout << "Enter the length of the side of the equilateral triangle" << "\n";
+	cin >> x;
+	y = sqrt(3) /4 * pow(x,2);
+	cout << "the area of the triangle is " << y;
+	
+	return 0;
+}
