@@ -5,7 +5,6 @@ int main()
 {
 float cm, m, km;
 
-    /* Input length in centimeter from user */
     cout << "Enter length in centimeter: ";
     cin >> cm;
     m = cm / 100;
