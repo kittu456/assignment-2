@@ -10,7 +10,7 @@ int main()
 	cout << "Enter two angles of a triangle" <<"\n";
 	cin >> x >> y;
 	z = 180 - (x + y);
-	cout << "the third angle of he triangle is " << z;
+	cout << "the third angle of the triangle is " << z;
 	
 	return 0;
 }
