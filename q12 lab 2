@@ -1,0 +1,14 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+
+int main()
+{
+	float P, T, R, CI;
+	cout << "Enter Principal, time and rate of interest respectively" << "\n";
+	cin >> P >> T >> R;
+	CI = P* pow((1 +(R/100)),T);
+	cout << "The compound interest is " << CI;
+	return 0;
+}
