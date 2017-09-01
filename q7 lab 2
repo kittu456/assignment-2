@@ -1,0 +1,16 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+
+int main()
+{
+	float x, y, z;
+	
+	cout << "Enter two angles of a triangle" <<"\n";
+	cin >> x >> y;
+	z = 180 - (x + y);
+	cout << "the third angle of he triangle is " << z;
+	
+	return 0;
+}
