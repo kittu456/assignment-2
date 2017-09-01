@@ -5,7 +5,7 @@ int main()
 {
 float Celsius, Farenheit;
 
-    cout << "Enter temperature in Celsisus: ";
+    cout << "Enter temperature in Celsisus: " << \n;
     cin >> Celsius;
     Farenheit = (Celsius * 1.8) + 32; 
     cout << "the equivalent temperature in Farenheit is "<< Farenheit;
